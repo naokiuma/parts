@@ -15,13 +15,32 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <Button {...args} />;
 
-export const BigTwiter = Template.bind({});
+
+
+export const Nextbtn = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-BigTwiter.args = {
+Nextbtn.args = {
   primary: true,
-  label: 'bigtwitter',
-  backgroundColor:"#373737"
+  label: '',
+  className : 'next_btn',
 };
+
+export const Borderbtn = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Borderbtn.args = {
+  primary: true,
+  label: 'border',
+  className : 'border_btn',
+};
+
+export const Borderbtn2 = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Borderbtn2.args = {
+  primary: true,
+  label: 'border',
+  className : 'border_btn_2',
+};
+
 
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args

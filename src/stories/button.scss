@@ -1,0 +1,88 @@
+.storybook-button {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+  }
+  .storybook-button--primary {
+    color: white;
+    background-color: #1ea7fd;
+  }
+  .storybook-button--secondary {
+    color: #333;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  }
+  .storybook-button--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+  .storybook-button--medium {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
+  .storybook-button--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+  
+
+
+ 
+  
+  
+  /*次へ*/
+  .next_btn{
+      display: inline-block;
+      display: block;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 1px solid #555;
+      background-color: #fff;
+      content: "";
+      position: relative;
+      transition: all .5s ease-out;
+
+      &:before{
+        content: "";
+        margin: auto;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        left: 20px;
+        width: 13px;    /* くの字を山なりに見た時、左側の長さ */
+        height: 13px;   /* くの字を山なりに見た時、右側の長さ */
+        border-top: 3px solid #000;     /* くの字を山なりに見た時、左側の太さと色 */
+        border-right: 3px solid #000;   /* くの字を山なりに見た時、右側の太さと色 */
+        transform: rotate(45deg);    /* くの字の向き */
+      }
+      &:hover{
+        transform: translateX(20px);
+        transition: all .5s ease-out;
+      }
+  }
+  
+
+  /*ボーダー*/
+  .border_btn{
+    box-shadow: 0 0 0 3px inset #bc9c70, 0 0 0 4px inset #d0ba9b;
+    background-color: #fff;
+    color: #555;
+  }
+
+  .border_btn_2{
+    background-color: #ce132d;
+    color: white;
+    box-shadow: 0 0 0 3px inset #ce132d, 0 0 0 4px inset white;
+    border-radius: 10px;
+  }
+  
+ 
+  
+  
+  
+  
