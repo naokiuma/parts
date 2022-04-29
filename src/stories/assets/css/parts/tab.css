@@ -1,0 +1,17 @@
+.label1 {
+  background-color: #e39fa3;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  line-height: 1;
+  display: inline-block;
+  font-size: 12px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.label1:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+/*# sourceMappingURL=tab.css.map */
