@@ -72,18 +72,4 @@
   transform: translateX(20px);
   transition: all .5s ease-out;
 }
-
-/*ボーダー*/
-.border_btn {
-  box-shadow: 0 0 0 3px inset #bc9c70, 0 0 0 4px inset #d0ba9b;
-  background-color: #fff;
-  color: #555;
-}
-
-.border_btn_2 {
-  background-color: #ce132d;
-  color: white;
-  box-shadow: 0 0 0 3px inset #ce132d, 0 0 0 4px inset white;
-  border-radius: 10px;
-}
 /*# sourceMappingURL=button.css.map */

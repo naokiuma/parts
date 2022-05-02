@@ -29,6 +29,26 @@ label1.args = {
   className: 'label1',
 };
 
+export const Attention = Template.bind({});
+Attention.args = {
+  label: '必須',
+  className : 'attention',
+};
+
+export const Border = Template.bind({});
+Border.args = {
+  label: 'border1',
+  className : 'border_label',
+};
+
+export const Border2 = Template.bind({});
+Border2.args = {
+  label: 'border2',
+  className : 'border_label_2',
+};
+
+
+
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',

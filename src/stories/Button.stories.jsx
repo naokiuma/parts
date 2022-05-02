@@ -25,21 +25,7 @@ Nextbtn.args = {
   className : 'next_btn',
 };
 
-export const Borderbtn = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Borderbtn.args = {
-  primary: true,
-  label: 'border',
-  className : 'border_btn',
-};
 
-export const Borderbtn2 = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Borderbtn2.args = {
-  primary: true,
-  label: 'border',
-  className : 'border_btn_2',
-};
 
 
 export const Primary = Template.bind({});
