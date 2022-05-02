@@ -19,7 +19,7 @@ export const Button = ({ primary, backgroundColor, size, label,className,type, .
         return(
             <div className={className}>
                 {/* <div className="'sp_menu' `${active ? "red" : ""}`" onClick={classToggle}> */}
-                <div className={['sp_menu',`${active ? "red" : ""}`, ].join(' ')}
+                <div className={['sp_menu',`${active ? "standard" : ""}`, ].join(' ')}
                     onClick={classToggle}
                 >
                     <span></span>
