@@ -35,7 +35,8 @@
   padding: 12px 24px;
 }
 
-/*次へ*/
+/*-------------------------------------------*/
+/*次へボタン*/
 .next_btn {
   display: inline-block;
   display: block;
@@ -71,5 +72,54 @@
 .next_btn:hover {
   transform: translateX(20px);
   transition: all .5s ease-out;
+}
+
+/*sp_menu*/
+.sp_menu {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px solid #555;
+  position: relative;
+  cursor: pointer;
+}
+
+.sp_menu span {
+  position: absolute;
+  width: 60%;
+  height: 5px;
+  background-color: #555;
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+  left: 20%;
+}
+
+.sp_menu span:nth-of-type(1) {
+  top: 25%;
+}
+
+.sp_menu span:nth-of-type(2) {
+  top: 45%;
+}
+
+.sp_menu span:nth-of-type(3) {
+  top: 65%;
+}
+
+.sp_menu.active span:nth-of-type(1) {
+  top: 25%;
+  transform: rotate(-315deg);
+}
+
+.sp_menu.active span:nth-of-type(2) {
+  top: 45%;
+  opacity: 0;
+}
+
+.sp_menu.active span:nth-of-type(3) {
+  top: 65%;
+  transform: rotate(315deg);
 }
 /*# sourceMappingURL=button.css.map */

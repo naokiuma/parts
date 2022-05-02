@@ -18,12 +18,22 @@ const Template = (args) => <Button {...args} />;
 
 
 export const Nextbtn = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Nextbtn.args = {
   primary: true,
   label: '',
   className : 'next_btn',
 };
+
+export const SpMenu = Template.bind({});
+SpMenu.args = {
+  primary: true,
+  label: '',
+  className : 'sp_menu_wrap',
+  type: 'hamburger',
+};
+
+
+
 
 
 
